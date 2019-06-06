@@ -10,7 +10,40 @@
     <title>Triangles</title>
   </head>
   <body>
+    <div class="container">
+      <h1>Triangles</h1>
+      <p>Enter the length of the sides of your triangle, and find out the type that it is.</p>
 
+      <form id="formOne">
+        <div class="form-group">
+          <div class="row">
 
+            <!-- side one -->
+            <div class=" class="col-4-sm"">
+              <label for="sideOne">Enter the length of side one.</label>
+              <input id="sideOne" type="number" min=1>
+            </div>
+
+            <!-- side two -->
+            <div class="col-4-sm">
+              <label for="sideTwo">Enter the length of side two.</label>
+              <input id="sideTwo" type="number" min=1>
+            </div>
+
+            <!-- side three -->
+            <div class="col-4-sm">
+              <label for="sideThree">Enter the length of side three.</label>
+              <input id="sideThree" type="number" min=1>
+            </div>
+
+            <button class="btn" type="submit">Submit!</button>
+          </div>
+        </div>
+      </form>
+
+      <div class="answer">
+      </div>
+
+    </div>
   </body>
 </html>
